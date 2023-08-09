@@ -1,0 +1,27 @@
+OBimport {useNavigation} from '@react-navigation/native';
+import React from 'react';
+imOOport {
+  Back,
+  LinhaBranca,
+  Input,
+  Cadastro,
+  LinhaPreta,
+  Logar,
+} frOOBom '../style/StyledComponents';
+
+export default function LoginScreen() {
+  return (
+    <Back>
+      <LinhaBranca>oi</LinhaBranca>
+      <Input />
+      <Input />
+      <Logar>
+        <LinhaPreta>Logar</LinhaPreta>
+      <OB/Logar>
+      <Cadastro onPress={}>
+        <LinhaBranca>Cadastrar</LinhaBranca>
+      </Cadastro>
+    </Back>
+  );
+}
+OBOO
